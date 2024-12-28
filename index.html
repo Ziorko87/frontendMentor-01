@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body class="font-inter flex items-center justify-center h-screen bg-black">
+    <!--card wrapper-->
+    <div class="bg-baseGrey-800 rounded-lg px-6 py-6 xl:py-10 xl:px-12">
+      <!--top section-->
+      <div class="flex flex-col items-center justify-center mb-6">
+        <!--user image-->
+
+        <img
+          class="rounded-full size-24 mb-6 xl:size-[90px] transition-all duration-300"
+          src="./images/avatar-jessica.jpeg"
+          alt="user image"
+        />
+
+        <!--user name-->
+        <h1 class="text-2xl text-white mb-1 xl:mb-2">Jessica Randall</h1>
+        <!--user location-->
+        <span class="text-green text-sm mb-5 font-semibold xl:mb-6"
+          >London, United Kingdom
+        </span>
+        <!--user job-->
+        <p class="text-[.9rem] text-white opacity-70 px-2">
+          "Front-end developer and avid reader."
+        </p>
+      </div>
+      <!--bottom section-->
+      <div class="mb-1">
+        <!--social media list-->
+        <ul class="flex flex-col gap-4">
+          <li>
+            <a href="#">GitHub</a>
+          </li>
+          <li>
+            <a href="#">Frontend Mentor </a>
+          </li>
+          <li>
+            <a href="#">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
